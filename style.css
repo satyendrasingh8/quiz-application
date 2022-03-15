@@ -65,3 +65,18 @@ input{
 .scoreArea{
     display: none;
 }
+#showScore h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+#showScore .btn{
+margin-top: 2rem;
+background-color: #55efc4;
+color: #2d3436;
+}
+
+#showScore .btn :hover{
+    background-color: #00b894;
+    color: #fff;
+    }
+
