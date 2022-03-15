@@ -39,3 +39,29 @@ html{
 input{
     cursor: pointer;
 }
+#submit,.btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    background-color: #74b9ff;
+    color: #fff;
+    margin-top: 4rem;cursor: pointer;
+}
+#submit:hover{
+    background-color: #0984e3;
+}
+#showScore{
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding: 2rem 3rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+
+}
+.scoreArea{
+    display: none;
+}
